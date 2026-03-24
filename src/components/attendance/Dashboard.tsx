@@ -20,6 +20,7 @@ export function Dashboard() {
     logsByArea, 
     statsByArea, 
     totalStats, 
+    peoplePresent,
     corteStatus,
     loadFromFile, 
     selectArea,
@@ -107,6 +108,17 @@ export function Dashboard() {
             />
           </div>
 
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <StatCard
+              title="Personas en Torre"
+              value={peoplePresent}
+              icon={
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+              }
+              color="purple"
+            />
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {(['recepcion_principal', 'estacionamiento', 'proveedores'] as AccessArea[]).map(area => (
               <div key={area} className="bg-white rounded-lg border border-gray-200 p-4">
@@ -162,7 +174,7 @@ interface StatCardProps {
   title: string;
   value: number;
   icon: React.ReactNode;
-  color?: 'blue' | 'green' | 'red';
+  color?: 'blue' | 'green' | 'red' | 'purple';
 }
 
 function StatCard({ title, value, icon, color = 'blue' }: StatCardProps) {
@@ -170,6 +182,7 @@ function StatCard({ title, value, icon, color = 'blue' }: StatCardProps) {
     blue: 'bg-blue-50 text-blue-600',
     green: 'bg-green-50 text-green-600',
     red: 'bg-red-50 text-red-600',
+    purple: 'bg-purple-50 text-purple-600',
   };
 
   return (

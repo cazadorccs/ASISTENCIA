@@ -207,11 +207,27 @@ export const useAttendanceLogic = () => {
     };
   }, [state.logs, state.users]);
 
+  const peoplePresent = useMemo(() => {
+    const userLastAction = new Map<string, 'entrada' | 'salida'>();
+    
+    state.logs.forEach(log => {
+      userLastAction.set(log.userId, log.type);
+    });
+    
+    let count = 0;
+    userLastAction.forEach(action => {
+      if (action === 'entrada') count++;
+    });
+    
+    return count;
+  }, [state.logs]);
+
   return {
     state,
     logsByArea,
     statsByArea,
     totalStats,
+    peoplePresent,
     corteStatus,
     loadFromCSV,
     loadFromFile,
