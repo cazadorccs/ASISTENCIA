@@ -1,0 +1,430 @@
+ID de persona,Nombre,Departamento,Hora,Estado de asistencia,Punto de verificación de asistencia,Nombre personalizado,Fuente de datos,Gestión de informe,Temperatura,Anormal
+'1,Joan rivero,mippci/seguridad,2026-03-17 08:20:56,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'1,Joan rivero,mippci/seguridad,2026-03-17 09:33:39,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'1,Joan rivero,mippci/seguridad,2026-03-17 09:40:18,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'1,Joan rivero,mippci/seguridad,2026-03-17 10:58:30,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'1,Joan rivero,mippci/seguridad,2026-03-17 11:08:27,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'1,Joan rivero,mippci/seguridad,2026-03-17 12:25:25,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'1,Joan rivero,mippci/seguridad,2026-03-17 12:28:14,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'3,Gleimar Corrales,mippci/seguridad,2026-03-17 08:18:15,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'8,Yasmin vivas,mippci/seguridad,2026-03-17 07:27:15,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'13,Luis Enrrique Molina,mippci/seguridad,2026-03-17 07:18:17,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'15,Francelis Corrales,mippci/seguridad,2026-03-17 09:29:05,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'15,Francelis Corrales,mippci/seguridad,2026-03-17 10:39:50,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'15,Francelis Corrales,mippci/seguridad,2026-03-17 12:52:46,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'16,Harry Velazquez,mippci,2026-03-17 08:36:36,Nada,Sotano_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'17,Jesica Calderon,mippci,2026-03-17 09:24:56,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'18,Keymar Marin,mippci,2026-03-17 07:50:43,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'19,Misleide Hernandez,mippci,2026-03-17 08:43:03,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'20,Hilary Moreno,mippci,2026-03-17 07:43:57,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'22,Jose Landaeta,mippci,2026-03-17 08:11:27,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'24,Edwin Ramirez,mippci/avp,2026-03-17 06:24:55,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'24,Edwin Ramirez,mippci/avp,2026-03-17 08:27:13,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'24,Edwin Ramirez,mippci/avp,2026-03-17 08:55:52,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'24,Edwin Ramirez,mippci/avp,2026-03-17 11:34:27,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'24,Edwin Ramirez,mippci/avp,2026-03-17 12:12:50,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'25,Jhoswual Sarmiemto,mippci/avp,2026-03-17 07:42:27,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'26,Maria Acosta,mippci/avp,2026-03-17 09:43:19,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'26,Maria Acosta,mippci/avp,2026-03-17 11:37:59,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'26,Maria Acosta,mippci/avp,2026-03-17 12:30:21,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'29,Novis Rodriguez,mippci/avp,2026-03-17 06:50:07,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'30,Yulimar Fernandez,mippci/avp,2026-03-17 08:43:31,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'30,Yulimar Fernandez,mippci/avp,2026-03-17 09:16:45,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'30,Yulimar Fernandez,mippci/avp,2026-03-17 11:30:18,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'30,Yulimar Fernandez,mippci/avp,2026-03-17 12:37:13,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'31,Dayana Pacheco,mippci/avp,2026-03-17 08:24:15,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'32,Jose Vegas,mippci/avp,2026-03-17 08:35:13,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'32,Jose Vegas,mippci/avp,2026-03-17 12:03:28,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'34,Maite Calazan,mippci/seguridad,2026-03-17 08:33:37,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'35,Jorge Cortez,mippci/seguridad,2026-03-17 09:02:55,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'37,Kemberly herrera,mippci/seguridad,2026-03-17 07:46:51,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'38,Stefany Miranda,mippci/seguridad,2026-03-17 07:56:00,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'41,Jose Esparragoza,mippci/seguridad,2026-03-17 07:39:52,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'42,Gustavo Gonzalez,mippci/seguridad,2026-03-17 08:11:45,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'44,Marbeli Castro,mippci/seguridad,2026-03-17 07:24:29,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'46,Victor Nuñez,mippci/seguridad,2026-03-17 12:26:46,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'48,Eilyn Lizarazo,mippci/seguridad,2026-03-17 07:22:15,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'49,Carlos Quintana,mippci/seguridad,2026-03-17 08:08:12,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'50,Wilmer Ruiz,mippci,2026-03-17 07:43:14,Nada,Sotano_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'50,Wilmer Ruiz,mippci,2026-03-17 11:18:40,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'50,Wilmer Ruiz,mippci,2026-03-17 11:40:19,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'51,Roberto Molinares,mippci,2026-03-17 08:54:22,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'52,Lisbeth Escalona,mippci,2026-03-17 08:05:23,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'52,Lisbeth Escalona,mippci,2026-03-17 09:31:05,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'53,Rismary Hernandez,mippci,2026-03-17 08:10:37,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'58,Daniel Mendez,mippci,2026-03-17 09:32:17,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'58,Daniel Mendez,mippci,2026-03-17 09:41:11,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'59,Luis Racamonde,mippci,2026-03-17 09:43:06,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'60,Luis Belmonte,mippci,2026-03-17 12:44:25,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'62,Guillermo Arias,mippci,2026-03-17 05:24:26,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'62,Guillermo Arias,mippci,2026-03-17 11:25:44,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'64,Naibel Aular,mippci,2026-03-17 08:14:01,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'66,Maria Molina,mippci,2026-03-17 09:15:39,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'69,Nancy Contreras,mippci/avp,2026-03-17 08:42:37,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'69,Nancy Contreras,mippci/avp,2026-03-17 10:29:49,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'69,Nancy Contreras,mippci/avp,2026-03-17 11:38:26,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'70,Roselin Ceballos,mippci/avp,2026-03-17 07:47:35,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'70,Roselin Ceballos,mippci/avp,2026-03-17 11:54:13,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'71,Ninoska Rivero,mippci/avp,2026-03-17 06:37:22,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'72,Elizabeth Rodriguez,mippci/avp,2026-03-17 06:23:32,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'73,Royelin Fernandez,mippci/avp,2026-03-17 08:28:21,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'77,Veronica Garcia,mippci/avp,2026-03-17 09:08:38,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'78,Desiree Quintero,mippci/avp,2026-03-17 07:38:58,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'78,Desiree Quintero,mippci/avp,2026-03-17 11:12:52,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'79,Gustavo Paez,mippci/avp,2026-03-17 08:21:16,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'79,Gustavo Paez,mippci/avp,2026-03-17 11:07:05,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'81,Charo Madrid,mippci/avp,2026-03-17 09:00:17,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'83,Omaryeris Marcano,mippci,2026-03-17 09:13:54,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'83,Omaryeris Marcano,mippci,2026-03-17 12:04:09,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'85,Siraidy Barreto,mippci/avp,2026-03-17 08:58:53,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'86,Sergio Castro,mippci,2026-03-17 08:20:37,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'89,Fabianna Torrealba,mippci/avp,2026-03-17 09:07:11,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'91,Alexandra Blanco,mippci/avp,2026-03-17 08:59:16,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'91,Alexandra Blanco,mippci/avp,2026-03-17 11:03:44,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'92,Laura Vera,mippci/avp,2026-03-17 09:00:21,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'93,Gabriela Santana,mippci,2026-03-17 07:24:36,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'95,Marveling Sanchez,mippci/avp,2026-03-17 08:52:44,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'97,Asly Ramirez,mippci/avp,2026-03-17 08:27:33,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'97,Asly Ramirez,mippci/avp,2026-03-17 12:37:16,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'99,Rodolfo Sanabria,mippci/avp,2026-03-17 07:52:24,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'109,Deimy Lara,mippci/avp,2026-03-17 09:11:07,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'112,Kleimary Mijarez,mippci,2026-03-17 08:21:36,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'112,Kleimary Mijarez,mippci,2026-03-17 12:54:19,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'113,Jose Escalona,mippci,2026-03-17 07:09:26,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'114,Jose Gonzalez,mippci,2026-03-17 08:29:03,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'116,Nicole Robira,mippci,2026-03-17 09:07:02,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'118,Lening Segovia,mippci,2026-03-17 08:51:55,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'119,Gabriel Chirinos,mippci,2026-03-17 07:01:49,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'119,Gabriel Chirinos,mippci,2026-03-17 12:54:16,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'123,Karolayns Peña,mippci,2026-03-17 08:34:01,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'123,Karolayns Peña,mippci,2026-03-17 12:49:11,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'124,Barbara La rosa,mippci,2026-03-17 08:21:20,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'126,Ruben Torres,mippci,2026-03-17 08:11:40,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'127,Ana Marquez,mippci,2026-03-17 08:22:57,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'127,Ana Marquez,mippci,2026-03-17 12:48:13,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'128,Yolia Molero,mippci,2026-03-17 07:22:49,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'129,Karen Medina,mippci,2026-03-17 09:34:02,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'130,Marisol Pastrana,mippci,2026-03-17 08:26:56,Nada,Sotano_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'132,Gabriela Salazar,mippci,2026-03-17 08:02:49,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'132,Gabriela Salazar,mippci,2026-03-17 11:59:50,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'132,Gabriela Salazar,mippci,2026-03-17 12:10:49,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'132,Gabriela Salazar,mippci,2026-03-17 12:30:00,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'132,Gabriela Salazar,mippci,2026-03-17 12:48:25,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'135,Yonayker chirinos,mippci,2026-03-17 08:03:57,Nada,Sotano_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'137,Alexander Veliz,mippci,2026-03-17 08:16:24,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'137,Alexander Veliz,mippci,2026-03-17 12:16:36,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'137,Alexander Veliz,mippci,2026-03-17 12:27:58,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'138,Isaura Salas,mippci,2026-03-17 08:14:12,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'139,Yasbely peinado,mippci,2026-03-17 08:00:51,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'139,Yasbely peinado,mippci,2026-03-17 12:20:45,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'139,Yasbely peinado,mippci,2026-03-17 12:52:10,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'140,Joamka Corales,mippci,2026-03-17 08:04:46,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'140,Joamka Corales,mippci,2026-03-17 12:17:33,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'140,Joamka Corales,mippci,2026-03-17 12:52:51,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'141,Jose Guevara,mippci,2026-03-17 08:07:23,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'141,Jose Guevara,mippci,2026-03-17 12:17:26,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'144,Jose Marcano,mippci,2026-03-17 07:57:36,Nada,Sotano_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'145,Norelys Sanchez,mippci,2026-03-17 09:08:49,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'148,Indira Sandobal,mippci,2026-03-17 08:47:49,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'148,Indira Sandobal,mippci,2026-03-17 11:50:42,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'148,Indira Sandobal,mippci,2026-03-17 12:26:23,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'148,Indira Sandobal,mippci,2026-03-17 12:54:38,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'150,Wilmer Guevara,mippci,2026-03-17 09:13:12,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'150,Wilmer Guevara,mippci,2026-03-17 12:10:35,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'151,Nulena Barrios,mippci,2026-03-17 09:05:59,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'151,Nulena Barrios,mippci,2026-03-17 12:45:50,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'152,Betty Valera,mippci,2026-03-17 09:05:05,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'152,Betty Valera,mippci,2026-03-17 12:53:02,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'153,Winder Mejia,mippci,2026-03-17 12:21:49,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'156,Eliasib Godoy,mippci,2026-03-17 08:45:20,Nada,Sotano_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'157,Yonescly Moralez,mippci,2026-03-17 08:21:27,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'157,Yonescly Moralez,mippci,2026-03-17 12:31:33,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'157,Yonescly Moralez,mippci,2026-03-17 12:36:30,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'157,Yonescly Moralez,mippci,2026-03-17 12:37:17,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'157,Yonescly Moralez,mippci,2026-03-17 12:51:16,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'158,Ponsiano Sanguino,mippci,2026-03-17 07:22:32,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'159,Elizabeth Hidalgo,mippci,2026-03-17 08:37:16,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'160,Hector Arcia,mippci,2026-03-17 08:29:19,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'163,Oscar Vargas,mippci,2026-03-17 08:39:13,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'165,Anthony Rada,mippci,2026-03-17 09:20:28,Nada,Sotano_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'166,Jose Ariza,mippci,2026-03-17 07:45:28,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'166,Jose Ariza,mippci,2026-03-17 07:45:30,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'167,Johana Arnache,mippci,2026-03-17 06:46:37,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'169,Pedro Pacheco,mippci,2026-03-17 09:37:04,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'172,Bertha Alcala,mippci,2026-03-17 08:33:09,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'173,Ana Benites,mippci,2026-03-17 07:23:29,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'174,Wilyelis Oviedo,mippci,2026-03-17 07:38:52,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'175,Osnelly Leiva,mippci,2026-03-17 07:40:36,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'176,Jessica Mijares,mippci,2026-03-17 07:07:33,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'178,Marlene Amaro,mippci,2026-03-17 07:12:53,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'180,Karla Cerda,mippci,2026-03-17 07:41:54,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'181,Janet Suarez,mippci,2026-03-17 08:31:10,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'183,Oriana Gil,mippci,2026-03-17 07:40:31,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'184,Charlys Agustin,mippci,2026-03-17 08:22:28,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'184,Charlys Agustin,mippci,2026-03-17 12:30:33,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'184,Charlys Agustin,mippci,2026-03-17 12:50:31,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'185,Rodney Avila,mippci,2026-03-17 08:34:04,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'187,Carlos Monsalve,mippci,2026-03-17 08:48:48,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'187,Carlos Monsalve,mippci,2026-03-17 12:40:00,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'189,Belkis Gonzalez,mippci,2026-03-17 08:27:04,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'190,Alexandra Mejias,mippci,2026-03-17 09:32:09,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'191,Jose Rojas,mippci,2026-03-17 06:02:47,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'192,Jesus Berrios,mippci,2026-03-17 09:07:07,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'194,Jose Garcia,mippci/avp,2026-03-17 08:33:40,Nada,Sotano_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'195,Guillermo Villahermoza,mippci,2026-03-17 08:05:29,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'198,Henrry Hernandez,mippci,2026-03-17 08:46:09,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'198,Henrry Hernandez,mippci,2026-03-17 08:49:54,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'202,Antonio millan,mippci/seguridad,2026-03-17 07:22:19,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'207,Angelica Rivero,mippci,2026-03-17 08:49:14,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'209,Mabel Delgado,mippci,2026-03-17 08:25:23,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'212,Mayerling Chirino,mippci,2026-03-17 08:11:57,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'214,Jose Velaspuez,mippci,2026-03-17 08:05:12,Nada,Sotano_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'215,josnaileth Duque,mippci,2026-03-17 08:37:23,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'217,Nicari Quevedo,mippci,2026-03-17 07:24:42,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'218,Yeraldin Pernia,mippci,2026-03-17 07:08:44,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'220,Karolayn Velaszquez,mippci,2026-03-17 08:31:34,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'220,Karolayn Velaszquez,mippci,2026-03-17 11:23:38,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'220,Karolayn Velaszquez,mippci,2026-03-17 11:26:05,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'223,Francys Leon,mippci,2026-03-17 08:42:32,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'224,Marian Marin,mippci,2026-03-17 08:55:03,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'227,Maricela Morante,mippci,2026-03-17 07:29:45,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'232,Alexander Colmenares,mippci,2026-03-17 09:50:17,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'233,Harvey hernandez,mippci,2026-03-17 09:06:21,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'233,Harvey hernandez,mippci,2026-03-17 12:23:17,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'233,Harvey hernandez,mippci,2026-03-17 12:42:09,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'235,Sara Diaz,mippci/analicis del entorno/viceministero de estrategia,2026-03-17 08:12:30,Nada,Sotano_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'235,Sara Diaz,mippci/analicis del entorno/viceministero de estrategia,2026-03-17 10:08:44,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'235,Sara Diaz,mippci/analicis del entorno/viceministero de estrategia,2026-03-17 10:15:59,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'235,Sara Diaz,mippci/analicis del entorno/viceministero de estrategia,2026-03-17 11:13:37,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'235,Sara Diaz,mippci/analicis del entorno/viceministero de estrategia,2026-03-17 11:19:49,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'240,Jhonmila Suarez,mippci,2026-03-17 09:07:49,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'246,Rosbarith Marquez,mippci,2026-03-17 10:26:10,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'247,Raelkis Peña,mippci,2026-03-17 08:20:43,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'247,Raelkis Peña,mippci,2026-03-17 09:01:35,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'247,Raelkis Peña,mippci,2026-03-17 09:12:15,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'247,Raelkis Peña,mippci,2026-03-17 11:17:02,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'247,Raelkis Peña,mippci,2026-03-17 11:19:53,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'248,Enderson Ereu,mippci,2026-03-17 08:27:53,Nada,Sotano_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'249,Daniel Zerpa,mippci,2026-03-17 07:27:09,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'250,Rafael Zalazar,mippci,2026-03-17 09:11:31,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'259,Josdreidi Aristiguetei,mippci,2026-03-17 11:37:16,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'260,Marianella Bracho,mippci,2026-03-17 08:12:25,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'261,Miguel Quero,mippci,2026-03-17 08:30:13,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'263,Gevanny Mejias,mippci,2026-03-17 08:47:59,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'264,Ezequiel  Zuares,mippci,2026-03-17 08:18:24,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'265,Wilmer Gonzalez,mippci,2026-03-17 09:18:56,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'270,Selene Figuero,mippci,2026-03-17 08:57:39,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'272,Daviana Castro,mippci,2026-03-17 09:06:34,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'280,Omarlis Ramirez,mippci,2026-03-17 08:25:33,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'281,Ninfa Barrera,mippci,2026-03-17 08:41:48,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'281,Ninfa Barrera,mippci,2026-03-17 10:21:01,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'281,Ninfa Barrera,mippci,2026-03-17 10:29:01,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'283,Hector Muñoz,mippci,2026-03-17 09:31:55,Nada,Sotano_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'284,Doris Fuentes,mippci,2026-03-17 08:56:48,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'285,Gilmary Martinez,mippci,2026-03-17 07:50:18,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'285,Gilmary Martinez,mippci,2026-03-17 12:36:08,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'286,Ana Segura,mippci,2026-03-17 08:47:46,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'286,Ana Segura,mippci,2026-03-17 09:43:11,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'286,Ana Segura,mippci,2026-03-17 09:53:03,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'287,Francelis Quintero,mippci/medios digitales,2026-03-17 08:37:53,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'287,Francelis Quintero,mippci/medios digitales,2026-03-17 12:43:22,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'287,Francelis Quintero,mippci/medios digitales,2026-03-17 12:43:23,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'291,Antonio Quintana,mippci,2026-03-17 08:41:29,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'293,Marly Zarraga,mippci/medios digitales,2026-03-17 08:37:32,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'293,Marly Zarraga,mippci/medios digitales,2026-03-17 12:12:09,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'293,Marly Zarraga,mippci/medios digitales,2026-03-17 12:37:06,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'294,Dasneiby Pernia,mippci,2026-03-17 08:05:10,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'294,Dasneiby Pernia,mippci,2026-03-17 09:39:48,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'294,Dasneiby Pernia,mippci,2026-03-17 09:54:37,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'300,Sinai Vasquez,mippci/medios digitales,2026-03-17 09:05:32,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'302,Alexa Torres,mippci,2026-03-17 10:26:16,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'309,Vladimir Rodrguez,mippci,2026-03-17 10:08:37,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'321,Juan Lucumi,mippci,2026-03-17 08:02:01,Nada,Sotano_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'323,Gisela Rodriguez,mippci/avp,2026-03-17 06:51:00,Nada,Sotano_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'325,Alba Sanabria,mippci,2026-03-17 08:42:56,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'332,Isaac Chavez,mippci,2026-03-17 08:37:52,Nada,Sotano_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'334,Madelis Perez,mippci,2026-03-17 08:50:34,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'334,Madelis Perez,mippci,2026-03-17 09:22:12,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'334,Madelis Perez,mippci,2026-03-17 09:43:23,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'334,Madelis Perez,mippci,2026-03-17 12:42:03,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'334,Madelis Perez,mippci,2026-03-17 12:52:59,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'335,Mirian Perez,mippci,2026-03-17 07:53:48,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'335,Mirian Perez,mippci,2026-03-17 12:45:28,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'337,Ana Alvarado,mippci,2026-03-17 08:27:11,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'338,Carlos Rondon,mippci,2026-03-17 09:03:57,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'339,Erlys Delgado,mippci,2026-03-17 08:54:04,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'339,Erlys Delgado,mippci,2026-03-17 12:54:05,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'340,Irais Martinez,mippci,2026-03-17 08:12:36,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'343,Orlando Lugo,mippci,2026-03-17 08:53:01,Nada,Sotano_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'343,Orlando Lugo,mippci,2026-03-17 10:29:50,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'343,Orlando Lugo,mippci,2026-03-17 10:43:13,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'345,Giovanni Daal,mippci,2026-03-17 07:24:55,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'345,Giovanni Daal,mippci,2026-03-17 12:50:56,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'346,Angelica Polo,mippci,2026-03-17 08:07:46,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'349,Scarlet Castillo,mippci,2026-03-17 09:14:16,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'350,Tajmahal Genavi,mippci,2026-03-17 11:42:50,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'350,Tajmahal Genavi,mippci,2026-03-17 12:54:30,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'352,Olga Lozano,mippci,2026-03-17 08:34:08,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'353,Erika Ramirez,mippci,2026-03-17 07:55:54,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'354,Yorkis Diaz,mippci,2026-03-17 08:14:25,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'354,Yorkis Diaz,mippci,2026-03-17 11:44:23,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'355,Carlos jimenez,mippci,2026-03-17 09:03:29,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'355,Carlos jimenez,mippci,2026-03-17 12:49:14,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'362,Adriana Perez,mippci,2026-03-17 08:33:02,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'363,Andres Bossio,mippci,2026-03-17 07:57:55,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'366,Rafael Xiques,mippci,2026-03-17 07:52:46,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'367,Andreina Solorzano,mippci,2026-03-17 09:24:53,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'368,Naybiy Guerrero,mippci,2026-03-17 08:25:40,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'368,Naybiy Guerrero,mippci,2026-03-17 12:32:07,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'369,Yohana Graterol,mippci,2026-03-17 07:52:33,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'370,Lorena Trejo,mippci,2026-03-17 07:41:05,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'370,Lorena Trejo,mippci,2026-03-17 12:31:57,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'373,Daniela Lopez,mippci,2026-03-17 08:36:05,Nada,Sotano_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'374,Luis Lopez,mippci,2026-03-17 07:17:50,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'377,Yamileth Luna,mippci,2026-03-17 08:54:42,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'378,Yelitza  Leon,mippci,2026-03-17 08:31:56,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'379,Almary Blanco,mippci,2026-03-17 06:44:03,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'380,Bridagny Mundarain,mippci,2026-03-17 08:26:50,Nada,Sotano_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'381,Carlos Pacheco,mippci,2026-03-17 07:03:19,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'382,Jose Echezuria,mippci,2026-03-17 08:23:24,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'383,Belkis Delgaudio,mippci,2026-03-17 07:07:25,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'384,Sonia Campos,mippci,2026-03-17 07:01:43,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'386,Delmo Torres,mippci,2026-03-17 08:05:46,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'387,Heinsler Hidalgo,mippci,2026-03-17 07:38:58,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'389,Jimy Barreto,mippci,2026-03-17 06:40:22,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'398,Jackson Cabello,mippci,2026-03-17 06:20:25,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'401,Carlos Alvino,mippci,2026-03-17 11:13:23,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'401,Carlos Alvino,mippci,2026-03-17 11:33:58,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'401,Carlos Alvino,mippci,2026-03-17 11:33:59,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'401,Carlos Alvino,mippci,2026-03-17 12:27:58,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'401,Carlos Alvino,mippci,2026-03-17 12:30:22,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'401,Carlos Alvino,mippci,2026-03-17 12:30:24,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'401,Carlos Alvino,mippci,2026-03-17 12:33:23,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'402,Aura Mirabal,mippci,2026-03-17 07:59:59,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'404,Luis Ruiz,mippci,2026-03-17 06:45:04,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'406,Jose Alarcon,mippci,2026-03-17 07:52:16,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'407,Jose Amundarain,mippci,2026-03-17 08:26:03,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'411,Nelson Piñango,mippci,2026-03-17 09:05:32,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'411,Nelson Piñango,mippci,2026-03-17 12:47:17,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'412,Jose,mippci,2026-03-17 09:16:11,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'434,Rosemary Molina,mippci,2026-03-17 11:41:14,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'445,Yelitza Gomez,mippci,2026-03-17 08:53:58,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'446,Anthony Rodriguez,mippci,2026-03-17 08:59:55,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'446,Anthony Rodriguez,mippci,2026-03-17 12:35:07,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'449,Tiffani Moreno,mippci,2026-03-17 08:29:30,Nada,Sotano_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'452,Danielys Perez,mippci/medios digitales,2026-03-17 09:52:10,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'453,Julia Quiaro,mippci,2026-03-17 11:23:44,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'459,Normally Colinas,mippci,2026-03-17 09:02:41,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'467,Wilfer Castillo,mippci,2026-03-17 12:45:55,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'489,Yohaslis Linarez,mippci/seguridad,2026-03-17 07:09:53,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'494,Yalibeth Sojo,mippci/seguridad,2026-03-17 08:18:09,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'495,Aquia Jinmy,mippci,2026-03-17 07:36:12,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'495,Aquia Jinmy,mippci,2026-03-17 08:03:05,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'495,Aquia Jinmy,mippci,2026-03-17 09:54:45,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'495,Aquia Jinmy,mippci,2026-03-17 12:39:31,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'497,Ricarda Quintana,mippci,2026-03-17 07:29:51,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'508,Felix Ordaz,mippci,2026-03-17 10:55:16,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'511,Ana Colmenarez,mippci,2026-03-17 08:15:38,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'514,Jose Clemente,mippci,2026-03-17 11:44:36,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'516,Jose Moreno,mippci/seguridad,2026-03-17 06:43:07,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'525,Marlene Uranga,mippci,2026-03-17 09:11:18,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'525,Marlene Uranga,mippci,2026-03-17 12:45:24,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'537,Jose Gonzalez,mippci,2026-03-17 08:23:23,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'540,Maita Yuslay,mippci,2026-03-17 08:32:27,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'542,Jose Andrade,mippci/seguridad,2026-03-17 08:05:25,Nada,Sotano_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'543,Rowilber Navas,mippci/seguridad,2026-03-17 08:17:38,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'551,Jose Aguilera,mippci,2026-03-17 05:52:44,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'561,Amy Acosta,mippci,2026-03-17 08:58:18,Nada,Sotano_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'562,Zairyn Caseres,mippci,2026-03-17 08:02:21,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'563,Iria Lopez,mippci,2026-03-17 08:13:05,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'575,Jose Torres,mippci,2026-03-17 12:55:51,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'597,Stephani Tritton,mippci/avp,2026-03-17 08:44:58,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'599,Francis Camacho,mippci/seguridad,2026-03-17 08:10:44,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'603,Ruben Hernandez,mippci,2026-03-17 11:27:32,Nada,Sotano_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'604,Vicyel Ugeto,mippci,2026-03-17 07:46:03,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'604,Vicyel Ugeto,mippci,2026-03-17 07:55:44,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'604,Vicyel Ugeto,mippci,2026-03-17 12:39:13,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'605,Gabrel Garcia,mippci,2026-03-17 08:49:45,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'608,Yoselin,mippci/analicis del entorno/viceministero de estrategia,2026-03-17 09:17:39,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'608,Yoselin,mippci/analicis del entorno/viceministero de estrategia,2026-03-17 11:13:40,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'608,Yoselin,mippci/analicis del entorno/viceministero de estrategia,2026-03-17 11:13:41,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'608,Yoselin,mippci/analicis del entorno/viceministero de estrategia,2026-03-17 11:21:24,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'612,Jackellyne,mippci,2026-03-17 08:49:10,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'613,Mariap,mippci,2026-03-17 05:49:42,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'615,Danielag,mippci,2026-03-17 06:22:54,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'615,Danielag,mippci,2026-03-17 10:38:35,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'616,Tahilina,mippci,2026-03-17 10:30:32,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'616,Tahilina,mippci,2026-03-17 10:38:54,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'621,Beiker,mippci,2026-03-17 06:21:25,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'623,Cleiderman,mippci,2026-03-17 05:49:54,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'629,Julioz,mippci,2026-03-17 08:28:56,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'629,Julioz,mippci,2026-03-17 12:05:12,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'629,Julioz,mippci,2026-03-17 12:41:53,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'631,Luis marquez,mippci,2026-03-17 08:06:58,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'636,Orlando,mippci,2026-03-17 07:49:44,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'636,Orlando,mippci,2026-03-17 12:52:08,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'642,Joan fernandez,mippci,2026-03-17 12:23:25,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'664,Rosmari,mippci,2026-03-17 07:00:42,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'665,Yennifer belandria,mippci,2026-03-17 09:01:11,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'667,Zairene,mippci,2026-03-17 07:52:39,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'675,Fabiola,mippci,2026-03-17 08:15:10,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'675,Fabiola,mippci,2026-03-17 12:09:48,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'675,Fabiola,mippci,2026-03-17 12:14:26,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'679,Angelin,mippci,2026-03-17 09:16:56,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'679,Angelin,mippci,2026-03-17 09:16:58,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'681,Erick flores,mippci,2026-03-17 10:11:15,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'682,Caren cortez,mippci/avp,2026-03-17 08:07:14,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'682,Caren cortez,mippci/avp,2026-03-17 11:57:34,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'684,Ruben trujillo,mippci,2026-03-17 11:25:48,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'684,Ruben trujillo,mippci,2026-03-17 12:38:27,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'686,Mirianni alvarez,mippci,2026-03-17 09:01:28,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'688,Zoila ruiz,mippci,2026-03-17 09:08:43,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'690,Ruben paredez,mippci,2026-03-17 08:43:15,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'693,Marlon viloria,mippci,2026-03-17 08:48:47,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'694,Juan perez,mippci,2026-03-17 11:01:33,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'694,Juan perez,mippci,2026-03-17 12:11:51,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'694,Juan perez,mippci,2026-03-17 12:19:31,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'697,Gabriela carrazco,mippci,2026-03-17 10:38:52,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'697,Gabriela carrazco,mippci,2026-03-17 12:11:56,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'697,Gabriela carrazco,mippci,2026-03-17 12:12:00,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'697,Gabriela carrazco,mippci,2026-03-17 12:19:26,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'699,Danny Duran,mippci,2026-03-17 08:50:42,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'699,Danny Duran,mippci,2026-03-17 11:18:34,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'699,Danny Duran,mippci,2026-03-17 11:20:40,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'699,Danny Duran,mippci,2026-03-17 11:32:04,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'699,Danny Duran,mippci,2026-03-17 11:33:40,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'700,loriana rubio,mippci,2026-03-17 08:14:49,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'702,keila brito,mippci,2026-03-17 09:29:46,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'704,DANYELI CARRUCI,mippci,2026-03-17 08:26:44,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'705,CESAR SALAS,mippci,2026-03-17 08:48:32,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'706,DANNY GARCIA,mippci,2026-03-17 09:45:20,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'706,DANNY GARCIA,mippci,2026-03-17 12:25:43,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'706,DANNY GARCIA,mippci,2026-03-17 12:51:12,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'707,JESUS GONZALES,mippci/avp,2026-03-17 09:14:36,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'707,JESUS GONZALES,mippci/avp,2026-03-17 12:40:00,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'708,monica gelvez,mippci/analicis del entorno/viceministero de estrategia,2026-03-17 08:51:15,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'712,WILIRSA DOBLES,mippci/medios digitales,2026-03-17 07:10:56,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'714,DIEGO POLANCO,mippci/medios digitales,2026-03-17 12:10:01,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'716,isabel aguilar,mippci/analicis del entorno,2026-03-17 06:55:20,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'717,mauriba armas,mippci/analicis del entorno/viceministero de estrategia,2026-03-17 09:20:47,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'718,alejandra acuña,mippci/analicis del entorno,2026-03-17 09:59:11,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'718,alejandra acuña,mippci/analicis del entorno,2026-03-17 12:12:05,Nada,Salida Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'719,lehimar hernandez,mippci/analicis del entorno/viceministero de estrategia,2026-03-17 08:56:39,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'720,ivan rodriguez,mippci/analicis del entorno/viceministero de estrategia,2026-03-17 08:55:06,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'722,juan carlos velazquez,mippci/protocolo,2026-03-17 08:43:47,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'730,oriana arita,mippci/protocolo,2026-03-17 08:44:14,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'731,yamileth nieto,mippci/administracion,2026-03-17 08:46:59,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'732,ines guzman,mippci/protocolo,2026-03-17 10:15:50,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'733,chistan briceño,mippci/protocolo,2026-03-17 08:52:25,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'734,yusneidy reyes,mippci/seguridad,2026-03-17 09:05:54,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'736,daniela salazar,mippci/administracion/compras,2026-03-17 08:16:20,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'736,daniela salazar,mippci/administracion/compras,2026-03-17 11:15:16,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'736,daniela salazar,mippci/administracion/compras,2026-03-17 11:17:38,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'736,daniela salazar,mippci/administracion/compras,2026-03-17 12:33:53,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'737,johandis landaez,mippci/protocolo,2026-03-17 09:17:12,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'737,johandis landaez,mippci/protocolo,2026-03-17 10:17:24,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'737,johandis landaez,mippci/protocolo,2026-03-17 12:21:44,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'737,johandis landaez,mippci/protocolo,2026-03-17 12:37:18,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'737,johandis landaez,mippci/protocolo,2026-03-17 12:37:19,Nada,Entrada Planta baja1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'738,sahib franco,mippci/tecnologia,2026-03-17 08:33:14,Nada,Entrada Planta baja 2_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
+'739,neymar diaz,mippci/medios digitales,2026-03-17 09:45:17,Nada,Salida Planta baja 1_Puerta1_Lector de tarjetas de entrada1,-,Registro de deslizamiento de tarjeta,-,-,-
