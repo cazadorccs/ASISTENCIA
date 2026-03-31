@@ -4,9 +4,16 @@ import { FileUploader } from './FileUploader';
 import { AccessPointSelector } from './AccessPointSelector';
 import { AttendanceTable } from './AttendanceTable';
 import { CorteStatus } from './CorteStatus';
+import { ReportsPanel } from './ReportsPanel';
 import { Button } from '../ui/Button';
 import type { AccessArea } from '../../types/types';
 import { clsx } from 'clsx';
+
+type UserRole = 'admin' | 'gerente' | 'supervisor' | 'empleado';
+
+interface DashboardProps {
+  userRole?: UserRole;
+}
 
 const AREA_LABELS: Record<AccessArea, string> = {
   recepcion_principal: 'Recepción Principal',
@@ -14,7 +21,7 @@ const AREA_LABELS: Record<AccessArea, string> = {
   proveedores: 'Proveedores',
 };
 
-export function Dashboard() {
+export function Dashboard({ userRole = 'empleado' }: DashboardProps) {
   const { 
     state, 
     logsByArea, 
@@ -157,6 +164,8 @@ export function Dashboard() {
               stats={statsByArea}
             />
           </div>
+
+          <ReportsPanel logs={state.logs} userRole={userRole} />
 
           <div className="bg-white rounded-lg border border-gray-200 p-6">
             <h2 className="text-lg font-heading font-semibold text-gray-900 mb-4">

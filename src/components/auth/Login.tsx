@@ -2,19 +2,24 @@ import { useState } from 'react';
 import { Button } from '../ui/Button';
 import { Input } from '../ui/Input';
 
+type UserRole = 'admin' | 'gerente' | 'supervisor' | 'empleado';
+
 interface User {
   username: string;
   password: string;
   name: string;
+  role: UserRole;
 }
 
 const USERS: User[] = [
-  { username: 'admin', password: 'admin123', name: 'Administrador' },
-  { username: 'user', password: 'user123', name: 'Usuario' },
+  { username: 'admin', password: 'admin123', name: 'Administrador', role: 'admin' },
+  { username: 'gerente', password: 'gerente123', name: 'Gerente General', role: 'gerente' },
+  { username: 'supervisor', password: 'super123', name: 'Supervisor', role: 'supervisor' },
+  { username: 'user', password: 'user123', name: 'Usuario', role: 'empleado' },
 ];
 
 interface LoginProps {
-  onLogin: (user: string) => void;
+  onLogin: (user: string, role: UserRole) => void;
 }
 
 export function Login({ onLogin }: LoginProps) {
@@ -36,7 +41,8 @@ export function Login({ onLogin }: LoginProps) {
 
     if (user) {
       localStorage.setItem('app_user', user.name);
-      onLogin(user.name);
+      localStorage.setItem('app_role', user.role);
+      onLogin(user.name, user.role);
     } else {
       setError('Usuario o contraseña incorrectos');
     }
@@ -128,8 +134,10 @@ export function Login({ onLogin }: LoginProps) {
           color: '#6b7280'
         }}>
           <strong>Usuarios de prueba:</strong><br/>
-          admin / admin123<br/>
-          user / user123
+          admin / admin123 (Admin)<br/>
+          gerente / gerente123 (Gerente)<br/>
+          supervisor / super123 (Supervisor)<br/>
+          user / user123 (Empleado)
         </div>
       </div>
     </div>

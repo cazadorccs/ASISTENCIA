@@ -3,28 +3,36 @@ import { AttendanceProvider } from './context/AttendanceContext';
 import { Dashboard } from './components/attendance/Dashboard';
 import { Login } from './components/auth/Login';
 
+type UserRole = 'admin' | 'gerente' | 'supervisor' | 'empleado';
+
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState<boolean | null>(null);
   const [user, setUser] = useState<string>('');
+  const [role, setRole] = useState<UserRole>('empleado');
 
   useEffect(() => {
     const storedUser = localStorage.getItem('app_user');
+    const storedRole = localStorage.getItem('app_role') as UserRole;
     if (storedUser) {
       setUser(storedUser);
+      setRole(storedRole || 'empleado');
       setIsAuthenticated(true);
     } else {
       setIsAuthenticated(false);
     }
   }, []);
 
-  const handleLogin = (loggedUser: string) => {
+  const handleLogin = (loggedUser: string, userRole: UserRole) => {
     setUser(loggedUser);
+    setRole(userRole);
     setIsAuthenticated(true);
   };
 
   const handleLogout = () => {
     localStorage.removeItem('app_user');
+    localStorage.removeItem('app_role');
     setUser('');
+    setRole('empleado');
     setIsAuthenticated(false);
   };
 
@@ -39,25 +47,28 @@ function App() {
   return (
     <AttendanceProvider>
       <div style={{ position: 'relative' }}>
-        <button
-          onClick={handleLogout}
-          style={{
-            position: 'absolute',
-            top: '16px',
-            right: '16px',
-            background: '#dc2626',
-            color: 'white',
-            border: 'none',
-            padding: '8px 16px',
-            borderRadius: '6px',
-            cursor: 'pointer',
-            fontSize: '14px',
-            zIndex: 1000
-          }}
-        >
-          Cerrar Sesión ({user})
-        </button>
-        <Dashboard />
+        <div style={{ 
+          position: 'absolute', 
+          top: '16px', 
+          right: '230px', 
+          zIndex: 1000 
+        }}>
+          <button
+            onClick={handleLogout}
+            style={{
+              background: '#dc2626',
+              color: 'white',
+              border: 'none',
+              padding: '8px 16px',
+              borderRadius: '6px',
+              cursor: 'pointer',
+              fontSize: '14px'
+            }}
+          >
+            Cerrar Sesión ({user})
+          </button>
+        </div>
+        <Dashboard userRole={role} />
       </div>
     </AttendanceProvider>
   );
