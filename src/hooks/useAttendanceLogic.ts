@@ -208,15 +208,24 @@ export const useAttendanceLogic = () => {
   }, [state.logs, state.users]);
 
   const peoplePresent = useMemo(() => {
-    const userLastAction = new Map<string, 'entrada' | 'salida'>();
+    const sortedLogs = [...state.logs].sort((a, b) => 
+      a.timestamp.getTime() - b.timestamp.getTime()
+    );
     
-    state.logs.forEach(log => {
-      userLastAction.set(log.userId, log.type);
+    const userStatus = new Map<string, number>();
+    
+    sortedLogs.forEach(log => {
+      const currentCount = userStatus.get(log.userId) || 0;
+      if (log.type === 'entrada') {
+        userStatus.set(log.userId, currentCount + 1);
+      } else {
+        userStatus.set(log.userId, Math.max(0, currentCount - 1));
+      }
     });
     
     let count = 0;
-    userLastAction.forEach(action => {
-      if (action === 'entrada') count++;
+    userStatus.forEach(status => {
+      if (status > 0) count++;
     });
     
     return count;

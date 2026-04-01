@@ -231,7 +231,7 @@ export function FloorReport({ logs }: FloorReportProps) {
       <div>
         <h3 className="text-sm font-semibold text-gray-700 mb-3">Edificio MIPPCI</h3>
         
-        <div className="flex items-end justify-around h-64 pl-8 pt-2 pb-4 gap-1 w-full border-b border-gray-200">
+        <div className="flex items-end justify-around h-64 pl-8 pt-2 pb-4 gap-1 w-full border-t border-gray-200">
           {floorStats.map(({ floor, inside }, index) => {
             const isActive = inside > 0;
             const heightPercent = maxCount > 0 ? (inside / maxCount) * 100 : 0;
@@ -239,7 +239,7 @@ export function FloorReport({ logs }: FloorReportProps) {
             const floorColor = isMaxFloor ? '#dc2626' : FLOOR_COLORS[index];
             
             return (
-              <div key={floor} className="flex flex-col items-center flex-1 h-full justify-end">
+              <div key={floor} className="flex flex-col items-center flex-1 h-full justify-end border-b border-gray-300">
                 {inside > 0 && (
                   <span className="text-[8px] font-bold mb-0.5" style={{ color: floorColor }}>
                     {inside}
