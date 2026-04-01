@@ -112,10 +112,11 @@ export function FloorReport({ logs }: FloorReportProps) {
   const [searchTerm, setSearchTerm] = useState('');
   
   const { floorStats, dates } = useMemo(() => {
+    const sortedLogs = [...logs].sort((a, b) => a.timestamp.getTime() - b.timestamp.getTime());
     const floorPeopleMap = new Map<string, Map<string, PersonData>>();
     const dateSet = new Set<string>();
     
-    logs.forEach(log => {
+    sortedLogs.forEach(log => {
       const dateKey = log.timestamp.toISOString().split('T')[0];
       dateSet.add(dateKey);
       
