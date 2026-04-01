@@ -46,30 +46,7 @@ function App() {
 
   return (
     <AttendanceProvider>
-      <div style={{ position: 'relative' }}>
-        <div style={{ 
-          position: 'absolute', 
-          top: '16px', 
-          right: '230px', 
-          zIndex: 1000 
-        }}>
-          <button
-            onClick={handleLogout}
-            style={{
-              background: '#dc2626',
-              color: 'white',
-              border: 'none',
-              padding: '8px 16px',
-              borderRadius: '6px',
-              cursor: 'pointer',
-              fontSize: '14px'
-            }}
-          >
-            Cerrar Sesión ({user})
-          </button>
-        </div>
-        <Dashboard userRole={role} />
-      </div>
+      <Dashboard userRole={role} onLogout={handleLogout} userName={user} />
     </AttendanceProvider>
   );
 }

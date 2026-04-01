@@ -45,6 +45,27 @@ const FLOOR_MAPPING: Record<string, string> = {
   'gimnasio': 'Sotano 1',
 };
 
+const FLOOR_COLORS = [
+  '#6366f1', // Piso 14 - Indigo
+  '#8b5cf6', // Piso 13 - Violet
+  '#a855f7', // Piso 12 - Purple
+  '#d946ef', // Piso 11 - Fuchsia
+  '#ec4899', // Piso 10 - Pink
+  '#f43f5e', // Piso 9 - Rose
+  '#f97316', // Piso 8 - Orange
+  '#eab308', // Piso 7 - Yellow
+  '#84cc16', // Piso 6 - Lime
+  '#22c55e', // Piso 5 - Green
+  '#14b8a6', // Piso 4 - Teal
+  '#06b6d4', // Piso 3 - Cyan
+  '#0ea5e9', // Piso 2 - Sky
+  '#3b82f6', // Piso 1 - Blue
+  '#64748b', // Mezzanina - Slate
+  '#e11d48', // Planta Baja - Rose (destacado)
+  '#78716c', // Sotano 1 - Stone
+  '#57534e', // Sotano 2 - Stone darker
+];
+
 const FLOOR_ORDER = [
   'Piso 14', 'Piso 13', 'Piso 12', 'Piso 11', 'Piso 10', 
   'Piso 9', 'Piso 8', 'Piso 7', 'Piso 6', 'Piso 5',
@@ -202,76 +223,75 @@ export function FloorReport({ logs }: FloorReportProps) {
     URL.revokeObjectURL(url);
   };
 
-  const maxCount = Math.max(...floorStats.map(f => f.count), 1);
+  const maxCount = Math.max(...floorStats.map(f => f.inside), 1);
+  const maxFloor = floorStats.reduce((max, f) => f.inside > max.inside ? f : max, { floor: '', inside: 0 });
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
       <div>
         <h3 className="text-sm font-semibold text-gray-700 mb-3">Edificio MIPPCI</h3>
         
-        <div className="mb-3 h-24 flex items-end gap-1 px-2">
-          {floorStats.map(({ floor, count, inside, outside }) => {
-            const isActive = count > 0;
-            const isSelected = selectedFloor === floor;
-            const height = (count / maxCount) * 100;
+        <div className="flex items-end justify-around h-64 pl-8 pt-2 pb-4 gap-1 w-full border-b border-gray-200">
+          {floorStats.map(({ floor, inside }, index) => {
+            const isActive = inside > 0;
+            const heightPercent = maxCount > 0 ? (inside / maxCount) * 100 : 0;
+            const isMaxFloor = floor === maxFloor.floor;
+            const floorColor = isMaxFloor ? '#dc2626' : FLOOR_COLORS[index];
+            
             return (
-              <div key={floor} className="flex-1 flex flex-col items-center">
+              <div key={floor} className="flex flex-col items-center flex-1 h-full justify-end">
+                {inside > 0 && (
+                  <span className="text-[8px] font-bold mb-0.5" style={{ color: floorColor }}>
+                    {inside}
+                  </span>
+                )}
                 <div 
-                  className={`w-full rounded-t transition-all duration-300 ${
-                    isActive 
-                      ? 'bg-gradient-to-t from-blue-600 to-blue-400' 
-                      : 'bg-gray-200'
-                  }`}
+                  className="w-full max-w-8 rounded-t transition-all duration-300"
                   style={{ 
-                    height: `${Math.max(height, 8)}%`,
-                    minHeight: '8px'
+                    height: `${isActive ? heightPercent : 0}%`,
+                    backgroundColor: isActive ? floorColor : 'transparent'
                   }}
-                  title={`${floor}: ${count} personas (${inside} dentro)`}
+                  title={`${floor}: ${inside} personas`}
                 />
-                <button
-                  onClick={() => setSelectedFloor(isActive ? (isSelected ? null : floor) : null)}
-                  disabled={!isActive}
-                  className={`mt-1 text-[8px] font-medium transition-all ${
-                    isSelected ? 'text-blue-600 font-bold' : 'text-gray-500 hover:text-gray-700'
-                  }`}
-                  title={floor}
-                >
+                <span className="text-[7px] text-gray-500 mt-1 truncate max-w-[30px]">
                   {floor.replace('Piso ', 'P').replace('Planta Baja', 'PB').replace('Sotano ', 'S')}
-                </button>
+                </span>
               </div>
             );
           })}
         </div>
 
-        <div className="flex flex-col gap-1">
-          {floorStats.map(({ floor, count, inside, outside }) => {
+        <div className="flex flex-col gap-1 items-center">
+          {floorStats.map(({ floor, count, inside, outside }, index) => {
             const isActive = count > 0;
             const isSelected = selectedFloor === floor;
+            const isMaxFloor = floor === maxFloor.floor;
+            const floorColor = isMaxFloor ? '#dc2626' : FLOOR_COLORS[index];
+            
             return (
-              <div key={floor} className="flex items-center gap-3">
+              <div key={floor} className="flex items-center gap-3 w-48">
                 <button
                   onClick={() => setSelectedFloor(isActive ? (isSelected ? null : floor) : null)}
                   disabled={!isActive}
-                  className={`w-20 h-10 rounded-md transition-all duration-300 flex items-center justify-center ${
-                    isActive 
-                      ? isSelected
-                        ? 'bg-blue-700 ring-2 ring-blue-300'
-                        : 'bg-gradient-to-b from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600'
-                      : 'bg-gray-200 cursor-not-allowed'
-                  }`}
+                  className={`w-20 h-10 rounded-md transition-all duration-300 flex items-center justify-center cursor-not-allowed ${isActive ? 'hover:opacity-80' : ''}`}
+                  style={{
+                    backgroundColor: isActive ? floorColor : '#e5e7eb',
+                  }}
                 >
                   <span className={`text-sm font-bold ${isActive ? 'text-white' : 'text-gray-400'}`}>
-                    {count > 0 ? count : ''}
+                    {isActive ? count : '\u00A0'}
                   </span>
                 </button>
                 <div className="flex-1">
                   <span className="text-xs text-gray-700 font-medium block" title={floor}>
                     {floor}
                   </span>
-                  {count > 0 && (
+                  {count > 0 ? (
                     <span className="text-[10px] text-gray-400">
                       <span className="text-green-600">●</span> {inside} dentro / <span className="text-red-500">●</span> {outside} fuera
                     </span>
+                  ) : (
+                    <span className="text-[10px] text-transparent">placeholder</span>
                   )}
                 </div>
               </div>

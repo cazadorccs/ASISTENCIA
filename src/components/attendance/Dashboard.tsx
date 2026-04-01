@@ -13,6 +13,8 @@ type UserRole = 'admin' | 'gerente' | 'supervisor' | 'empleado';
 
 interface DashboardProps {
   userRole?: UserRole;
+  onLogout?: () => void;
+  userName?: string;
 }
 
 const AREA_LABELS: Record<AccessArea, string> = {
@@ -21,7 +23,7 @@ const AREA_LABELS: Record<AccessArea, string> = {
   proveedores: 'Proveedores',
 };
 
-export function Dashboard({ userRole = 'empleado' }: DashboardProps) {
+export function Dashboard({ userRole = 'empleado', onLogout, userName }: DashboardProps) {
   const { 
     state, 
     logsByArea, 
@@ -63,6 +65,22 @@ export function Dashboard({ userRole = 'empleado' }: DashboardProps) {
                 <Button variant="danger" size="sm" onClick={clearLogs}>
                   Limpiar Datos
                 </Button>
+              )}
+              {onLogout && (
+                <button
+                  onClick={onLogout}
+                  style={{
+                    background: 'rgb(220, 38, 38)',
+                    color: 'white',
+                    border: 'none',
+                    padding: '8px 16px',
+                    borderRadius: '6px',
+                    cursor: 'pointer',
+                    fontSize: '14px',
+                  }}
+                >
+                  Cerrar Sesión {userName ? `(${userName})` : '(Administrador)'}
+                </button>
               )}
             </div>
           </div>
