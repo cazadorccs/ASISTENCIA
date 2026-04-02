@@ -30,11 +30,23 @@ export function AttendanceTable({ logs, pageSize = 20 }: AttendanceTableProps) {
   const [sortField, setSortField] = useState<keyof AttendanceLog>('timestamp');
   const [sortDir, setSortDir] = useState<'asc' | 'desc'>('desc');
   const [viewMode, setViewMode] = useState<'individual' | 'grouped'>('individual');
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const filteredLogsList = useMemo(() => {
+    if (!searchTerm) return logs;
+    const lower = searchTerm.toLowerCase();
+    return logs.filter(l => 
+      l.userName.toLowerCase().includes(lower) || 
+      l.userId.toLowerCase().includes(lower) || 
+      (l.department && l.department.toLowerCase().includes(lower)) ||
+      (l.area && l.area.toLowerCase().includes(lower))
+    );
+  }, [logs, searchTerm]);
 
   const groupedLogs = useMemo((): GroupedLog[] => {
     const grouped = new Map<string, GroupedLog>();
     
-    logs.forEach(log => {
+    filteredLogsList.forEach(log => {
       const dateKey = log.timestamp.toISOString().split('T')[0];
       const groupKey = `${log.userId}_${dateKey}`;
       
@@ -72,7 +84,7 @@ export function AttendanceTable({ logs, pageSize = 20 }: AttendanceTableProps) {
       if (!aTime || !bTime) return 0;
       return bTime.getTime() - aTime.getTime();
     });
-  }, [logs]);
+  }, [filteredLogsList]);
 
   const sortedGrouped = useMemo(() => {
     return [...groupedLogs].sort((a, b) => {
@@ -91,7 +103,7 @@ export function AttendanceTable({ logs, pageSize = 20 }: AttendanceTableProps) {
   }, [sortedGrouped, page, pageSize]);
 
   const sortedLogs = useMemo(() => {
-    return [...logs].sort((a, b) => {
+    return [...filteredLogsList].sort((a, b) => {
       const aVal = a[sortField];
       const bVal = b[sortField];
       
@@ -107,7 +119,7 @@ export function AttendanceTable({ logs, pageSize = 20 }: AttendanceTableProps) {
         ? aStr.localeCompare(bStr)
         : bStr.localeCompare(aStr);
     });
-  }, [logs, sortField, sortDir]);
+  }, [filteredLogsList, sortField, sortDir]);
 
   const paginatedLogs = useMemo(() => {
     const start = page * pageSize;
@@ -162,12 +174,12 @@ export function AttendanceTable({ logs, pageSize = 20 }: AttendanceTableProps) {
   }
 
   const totalPages = viewMode === 'individual' 
-    ? Math.ceil(logs.length / pageSize) 
+    ? Math.ceil(filteredLogsList.length / pageSize) 
     : Math.ceil(groupedLogs.length / pageSize);
 
   return (
     <div className="w-full">
-      <div className="flex justify-between items-center mb-4">
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-4">
         <div className="flex gap-2">
           <button
             onClick={() => { setViewMode('individual'); setPage(0); }}
@@ -192,11 +204,22 @@ export function AttendanceTable({ logs, pageSize = 20 }: AttendanceTableProps) {
             Vista por Usuario
           </button>
         </div>
-        {viewMode === 'grouped' && (
-          <span className="text-sm text-gray-500">
-            {groupedLogs.length} usuario{groupedLogs.length !== 1 ? 's' : ''}
-          </span>
-        )}
+        <div className="flex-1 w-full sm:max-w-xs">
+           <input 
+             type="text" 
+             placeholder="Filtrar nombre, C.I o área..." 
+             className="w-full px-3 py-1.5 border border-slate-300 rounded-md text-sm focus:outline-none focus:border-brand-500 focus:ring-1 focus:ring-brand-500 bg-white"
+             value={searchTerm}
+             onChange={e => { setSearchTerm(e.target.value); setPage(0); }}
+           />
+        </div>
+        <div className="text-sm font-medium text-slate-500">
+          {viewMode === 'grouped' ? (
+            <span>{groupedLogs.length} usuario{groupedLogs.length !== 1 ? 's' : ''}</span>
+          ) : (
+            <span>{filteredLogsList.length} registro{filteredLogsList.length !== 1 ? 's' : ''}</span>
+          )}
+        </div>
       </div>
 
       <div className="overflow-x-auto rounded-lg border border-gray-200">
