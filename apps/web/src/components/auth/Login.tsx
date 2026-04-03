@@ -20,7 +20,7 @@ export function Login() {
 
     // Hardcoded demo check
     const roles: Record<string, any> = {
-      'admin': 'admin', 'gerente': 'gerente', 'supervisor': 'supervisor', 'user': 'empleado'
+      'admin': 'admin', 'seguridad': 'seguridad', 'rrhh': 'rrhh', 'administracion': 'administracion', 'auditoria': 'auditoria', 'empleado': 'empleado'
     };
     
     if (roles[username] && password.includes('123')) {

@@ -9,7 +9,7 @@ import { Button } from '../ui/Button';
 import type { AccessArea, AttendanceLog } from '../../types/types';
 import { clsx } from 'clsx';
 
-type UserRole = 'admin' | 'gerente' | 'supervisor' | 'empleado';
+type UserRole = 'admin' | 'seguridad' | 'rrhh' | 'administracion' | 'auditoria' | 'empleado';
 
 interface DashboardProps {
   userRole?: UserRole;
@@ -157,9 +157,11 @@ export function Dashboard({ userRole = 'empleado', onLogout, userName }: Dashboa
             </h1>
           </div>
           <div className="flex items-center gap-3">
-            <Button variant="danger" size="sm" onClick={() => setIsEvacuationMode(true)} className="shadow-lg animate-pulse ring-2 ring-red-500 ring-offset-2">
-              🚨 MODO EVACUACIÓN
-            </Button>
+            {(userRole === 'admin' || userRole === 'seguridad') && (
+              <Button variant="danger" size="sm" onClick={() => setIsEvacuationMode(true)} className="shadow-lg animate-pulse ring-2 ring-red-500 ring-offset-2">
+                🚨 MODO EVACUACIÓN
+              </Button>
+            )}
             {state.logs.length > 0 && activeTab === 'overview' && (
               <Button variant="danger" size="sm" onClick={clearLogs} className="shadow-sm hidden md:flex">
                 Limpiar Memoria
@@ -231,14 +233,16 @@ export function Dashboard({ userRole = 'empleado', onLogout, userName }: Dashboa
                   }
                   color="purple"
                 />
-                <StatCard
-                  title="Posibles Comensales"
-                  value={peoplePresent}
-                  icon={
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4h18z" />
-                  }
-                  color="blue"
-                />
+                {(userRole === 'admin' || userRole === 'administracion') && (
+                  <StatCard
+                    title="Posibles Comensales"
+                    value={peoplePresent}
+                    icon={
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4h18z" />
+                    }
+                    color="blue"
+                  />
+                )}
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

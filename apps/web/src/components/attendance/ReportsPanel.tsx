@@ -3,7 +3,7 @@ import type { AttendanceLog, AccessArea } from '../../types/types';
 import { clsx } from 'clsx';
 import { FloorReport } from './FloorReport';
 
-type UserRole = 'admin' | 'gerente' | 'supervisor' | 'empleado';
+type UserRole = 'admin' | 'seguridad' | 'rrhh' | 'administracion' | 'auditoria' | 'empleado';
 
 interface ReportsPanelProps {
   logs: AttendanceLog[];
@@ -14,8 +14,10 @@ type ReportType = 'department' | 'hourly' | 'no-exit' | 'access-points' | 'daily
 
 const ROLE_REPORTS: Record<UserRole, ReportType[]> = {
   admin: ['department', 'hourly', 'no-exit', 'access-points', 'daily', 'floor', 'payroll', 'dining', 'audit', 'visitors'],
-  gerente: ['department', 'hourly', 'access-points', 'daily', 'floor', 'payroll', 'dining'],
-  supervisor: ['department', 'hourly', 'access-points', 'daily', 'floor', 'visitors'],
+  seguridad: ['visitors', 'floor', 'access-points', 'hourly'],
+  rrhh: ['payroll', 'daily', 'department', 'floor'],
+  administracion: ['dining', 'daily', 'floor'],
+  auditoria: ['audit', 'no-exit', 'access-points', 'floor', 'hourly'],
   empleado: [],
 };
 
