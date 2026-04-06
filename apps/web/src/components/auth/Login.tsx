@@ -3,6 +3,8 @@ import { Button } from '../ui/Button';
 import { Input } from '../ui/Input';
 import { useAuth } from '../../context/AuthContext';
 
+const API_BASE = '/api';
+
 export function Login() {
   const { login } = useAuth();
   const [username, setUsername] = useState('');
@@ -16,7 +18,7 @@ export function Login() {
     setLoading(true);
 
     try {
-      const response = await fetch('/api/auth/login', {
+      const response = await fetch(`${API_BASE}/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email: username, password }),
