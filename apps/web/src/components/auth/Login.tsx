@@ -15,18 +15,24 @@ export function Login() {
     setError('');
     setLoading(true);
 
-    // Simulated local lookup - soon to be replaced by Zod API call
-    await new Promise(resolve => setTimeout(resolve, 800));
+    try {
+      const response = await fetch('/api/auth/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: username, password }),
+      });
 
-    // Hardcoded demo check
-    const roles: Record<string, any> = {
-      'admin': 'admin', 'seguridad': 'seguridad', 'rrhh': 'rrhh', 'administracion': 'administracion', 'auditoria': 'auditoria', 'empleado': 'empleado'
-    };
-    
-    if (roles[username] && password.includes('123')) {
-      login(username === 'user' ? 'Usuario' : username.charAt(0).toUpperCase() + username.slice(1), roles[username]);
-    } else {
-      setError('Credenciales institucionales incorrectas');
+      const data = await response.json();
+
+      if (!response.ok) {
+        setError(data.error || 'Credenciales incorrectas');
+        setLoading(false);
+        return;
+      }
+
+      login(data.user.name, data.user.role);
+    } catch (err) {
+      setError('Error de conexión. Intente más tarde.');
     }
 
     setLoading(false);
@@ -64,10 +70,10 @@ export function Login() {
           <div className="bg-white p-8 rounded-2xl shadow-float border border-slate-100">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label className="block text-sm font-medium text-slate-700 mb-2">Usuario Institucional</label>
+                <label className="block text-sm font-medium text-slate-700 mb-2">Email Institucional</label>
                 <Input
-                  type="text"
-                  placeholder="ej. admin"
+                  type="email"
+                  placeholder="ej. admin@mipcci.com"
                   value={username}
                   onChange={e => setUsername(e.target.value)}
                   className="w-full transition-shadow duration-200"
