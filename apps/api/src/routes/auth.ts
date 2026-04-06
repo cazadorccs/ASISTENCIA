@@ -7,9 +7,13 @@ import { loginSchema, registerSchema } from '../schemas/auth.schema.js';
 
 const router = Router();
 
-router.post('/login', validate(loginSchema), async (req: Request, res: Response): Promise<any> => {
+router.post('/login', async (req: Request, res: Response): Promise<any> => {
   try {
     const { email, password } = req.body;
+
+    if (!email || !password) {
+      return res.status(400).json({ error: 'Email y contraseña son requeridos' });
+    }
 
     const user = await prisma.user.findUnique({ where: { email } });
 
