@@ -49,8 +49,10 @@ ASISTENCIA/
 - Login con **email/contraseña** validado contra la base de datos PostgreSQL.
 - Sesión gestionada con **JWT** (expira en 24h) y `localStorage`.
 - Sistema de **roles diferenciado** con distintos permisos de vista:
-  - `admin` · `seguridad` · `rrhh` · `administracion` · `auditoria` · `empleado`
+  - `admin` · `gerencia` · `manager` · `seguridad` · `rrhh` · `administracion` · `auditoria` · `empleado`
 - Rutas protegidas en el frontend: redireccionan a `/login` si no hay sesión activa.
+- **Gestión de Usuarios:** CRUD completo desde la interfaz web para admin/gerencia.
+- **Cambio de Contraseña:** Endpoint seguro para actualización de credenciales.
 
 ### 🚨 Módulo de Seguridad y Emergencias (Roll-Call)
 - **Modo Evacuación:** Pantalla de contingencia que calcula en tiempo real todas las personas que ingresaron al edificio y no registran salida ("Por Evacuar").
@@ -152,7 +154,11 @@ npm run build
 | `POST` | `/api/auth/register` | Registrar nuevo usuario | ❌ |
 | `GET` | `/api/attendance` | Listar registros de asistencia | ✅ JWT |
 | `POST` | `/api/attendance` | Importar registros (CSV parse) | ✅ JWT |
-| `GET` | `/api/users` | Listar usuarios del sistema | ✅ JWT Admin |
+| `GET` | `/api/users` | Listar usuarios del sistema | ✅ JWT |
+| `POST` | `/api/users` | Crear nuevo usuario | ✅ JWT Admin |
+| `PUT` | `/api/users/:id` | Actualizar usuario | ✅ JWT Admin |
+| `DELETE` | `/api/users/:id` | Eliminar usuario | ✅ JWT Admin |
+| `PUT` | `/api/users/:id/password` | Cambiar contraseña | ✅ JWT |
 | `GET` | `/health` | Health check del servidor | ❌ |
 
 ---
@@ -174,6 +180,7 @@ apps/
         │   ├── attendance/ # Dashboard · AttendanceTable · ReportsPanel
         │   │               # FloorReport · FileUploader · AccessPointSelector
         │   ├── auth/       # Login
+        │   ├── users/      # UserManagement (CRUD usuarios)
         │   └── ui/         # Button · Input (design system base)
         ├── context/        # AuthContext · AttendanceContext
         ├── hooks/          # Hooks personalizados
