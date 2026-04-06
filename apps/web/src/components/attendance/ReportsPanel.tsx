@@ -2,8 +2,7 @@ import { useMemo, useState } from 'react';
 import type { AttendanceLog, AccessArea } from '../../types/types';
 import { clsx } from 'clsx';
 import { FloorReport } from './FloorReport';
-
-type UserRole = 'admin' | 'seguridad' | 'rrhh' | 'administracion' | 'auditoria' | 'empleado';
+import type { UserRole } from '../../context/AuthContext';
 
 interface ReportsPanelProps {
   logs: AttendanceLog[];
@@ -14,6 +13,8 @@ type ReportType = 'department' | 'hourly' | 'no-exit' | 'access-points' | 'daily
 
 const ROLE_REPORTS: Record<UserRole, ReportType[]> = {
   admin: ['department', 'hourly', 'no-exit', 'access-points', 'daily', 'floor', 'payroll', 'dining', 'audit', 'visitors'],
+  gerencia: ['department', 'hourly', 'no-exit', 'access-points', 'daily', 'floor', 'payroll', 'dining', 'audit', 'visitors'],
+  manager: ['department', 'hourly', 'no-exit', 'access-points', 'daily', 'floor', 'payroll', 'dining', 'audit', 'visitors'],
   seguridad: ['visitors', 'floor', 'access-points', 'hourly'],
   rrhh: ['payroll', 'daily', 'department', 'floor'],
   administracion: ['dining', 'daily', 'floor'],

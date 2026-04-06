@@ -1,15 +1,15 @@
 import { useState, useMemo } from 'react';
 import { useAttendance } from '../../context/AttendanceContext';
+import type { UserRole } from '../../context/AuthContext';
 import { FileUploader } from './FileUploader';
 import { AccessPointSelector } from './AccessPointSelector';
 import { AttendanceTable } from './AttendanceTable';
 import { CorteStatus } from './CorteStatus';
 import { ReportsPanel } from './ReportsPanel';
+import { UserManagement } from '../users/UserManagement';
 import { Button } from '../ui/Button';
 import type { AccessArea, AttendanceLog } from '../../types/types';
 import { clsx } from 'clsx';
-
-type UserRole = 'admin' | 'seguridad' | 'rrhh' | 'administracion' | 'auditoria' | 'empleado';
 
 interface DashboardProps {
   userRole?: UserRole;
@@ -23,7 +23,7 @@ const AREA_LABELS: Record<AccessArea, string> = {
   proveedores: 'Proveedores',
 };
 
-type ViewTab = 'overview' | 'upload' | 'areas' | 'reports' | 'records';
+type ViewTab = 'overview' | 'upload' | 'areas' | 'reports' | 'records' | 'users';
 
 export function Dashboard({ userRole = 'empleado', onLogout, userName }: DashboardProps) {
   const [activeTab, setActiveTab] = useState<ViewTab>('overview');
@@ -79,6 +79,11 @@ export function Dashboard({ userRole = 'empleado', onLogout, userName }: Dashboa
       id: 'records', 
       label: 'Registro de Asistencia', 
       icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 6h16M4 10h16M4 14h16M4 18h16" /> 
+    },
+    { 
+      id: 'users', 
+      label: 'Gestión de Usuarios', 
+      icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" /> 
     },
   ];
 
@@ -305,6 +310,12 @@ export function Dashboard({ userRole = 'empleado', onLogout, userName }: Dashboa
           {activeTab === 'records' && (
             <div className="bg-white rounded-xl border border-slate-100 shadow-soft p-6 animate-fade-in">
               <AttendanceTable logs={logsByArea} />
+            </div>
+          )}
+
+          {activeTab === 'users' && (userRole === 'admin' || userRole === 'gerencia') && (
+            <div className="animate-fade-in">
+              <UserManagement />
             </div>
           )}
 

@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 
-export type UserRole = 'admin' | 'seguridad' | 'rrhh' | 'administracion' | 'auditoria' | 'empleado';
+export type UserRole = 'admin' | 'gerencia' | 'manager' | 'seguridad' | 'rrhh' | 'administracion' | 'auditoria' | 'empleado';
 
 interface AuthContextType {
   isAuthenticated: boolean;

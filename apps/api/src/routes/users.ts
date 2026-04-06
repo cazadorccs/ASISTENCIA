@@ -137,4 +137,37 @@ router.delete('/:id', authenticate, authorize('gerencia', 'admin'), async (req: 
   }
 });
 
+router.put('/:id/password', authenticate, async (req: AuthRequest, res: Response) => {
+  try {
+    const { id } = req.params;
+    const { currentPassword, newPassword } = req.body;
+
+    if (req.user?.id !== id && !['admin', 'gerencia'].includes(req.user?.role || '')) {
+      return res.status(403).json({ error: 'No autorizado para cambiar esta contraseña' });
+    }
+
+    const user = await prisma.user.findUnique({ where: { id: id as string } });
+    if (!user) {
+      return res.status(404).json({ error: 'Usuario no encontrado' });
+    }
+
+    if (req.user?.id === id) {
+      const isValid = await bcrypt.compare(currentPassword, user.passwordHash);
+      if (!isValid) {
+        return res.status(400).json({ error: 'Contraseña actual incorrecta' });
+      }
+    }
+
+    const newHash = await bcrypt.hash(newPassword, 10);
+    await prisma.user.update({
+      where: { id: id as string },
+      data: { passwordHash: newHash },
+    });
+
+    res.json({ message: 'Contraseña actualizada correctamente' });
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to change password' });
+  }
+});
+
 export default router;
