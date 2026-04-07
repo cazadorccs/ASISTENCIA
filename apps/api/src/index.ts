@@ -1,11 +1,5 @@
 import express from 'express';
 import cors from 'cors';
-import dotenv from 'dotenv';
-import authRoutes from './routes/auth.js';
-import attendanceRoutes from './routes/attendance.js';
-import usersRoutes from './routes/users.js';
-
-dotenv.config();
 
 const app = express();
 const PORT = parseInt(process.env.PORT || '3001', 10);
@@ -13,14 +7,10 @@ const PORT = parseInt(process.env.PORT || '3001', 10);
 app.use(cors());
 app.use(express.json());
 
-app.use('/api/auth', authRoutes);
-app.use('/api/attendance', attendanceRoutes);
-app.use('/api/users', usersRoutes);
-
 app.get('/health', (req, res) => {
-  res.json({ status: 'ok' });
+  res.json({ status: 'ok', mode: 'local' });
 });
 
 app.listen(PORT, '0.0.0.0', () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(`Server running on port ${PORT} (local mode)`);
 });

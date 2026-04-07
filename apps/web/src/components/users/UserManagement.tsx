@@ -21,8 +21,22 @@ interface UserFormData {
   department: string;
 }
 
+const USERS_KEY = 'app_users';
 const ROLES = ['admin', 'gerencia', 'manager', 'rrhh', 'administracion', 'seguridad', 'auditoria', 'empleado'];
 const DEPARTMENTS = ['Gerencia', 'RRHH', 'Administración', 'Auditoría', 'Seguridad', 'TI', 'Contabilidad', 'Legal', 'Mercadeo'];
+
+function getStoredUsers(): User[] {
+  try {
+    const stored = localStorage.getItem(USERS_KEY);
+    return stored ? JSON.parse(stored) : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveUsers(users: User[]): void {
+  localStorage.setItem(USERS_KEY, JSON.stringify(users));
+}
 
 export function UserManagement() {
   const [users, setUsers] = useState<User[]>([]);
@@ -43,15 +57,10 @@ export function UserManagement() {
     fetchUsers();
   }, []);
 
-  const fetchUsers = async () => {
+  const fetchUsers = () => {
     try {
-      const token = localStorage.getItem('token');
-      const res = await fetch('/api/users', {
-        headers: { Authorization: `Bearer ${token}` },
-      });
-      if (!res.ok) throw new Error('Failed to fetch users');
-      const data = await res.json();
-      setUsers(data.data || []);
+      const storedUsers = getStoredUsers();
+      setUsers(storedUsers);
     } catch (err) {
       setError('Error al cargar usuarios');
     } finally {
@@ -75,28 +84,32 @@ export function UserManagement() {
     setIsModalOpen(true);
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setSaving(true);
     try {
-      const token = localStorage.getItem('token');
-      const url = editingUser ? `/api/users/${editingUser.id}` : '/api/users';
-      const method = editingUser ? 'PUT' : 'POST';
-      
-      const res = await fetch(url, {
-        method,
-        headers: {
-          'Content-Type': 'application/json',
-          Authorization: `Bearer ${token}`,
-        },
-        body: JSON.stringify(formData),
-      });
-
-      if (!res.ok) {
-        const data = await res.json();
-        throw new Error(data.error || 'Error al guardar usuario');
+      if (editingUser) {
+        const updatedUsers = users.map(u => 
+          u.id === editingUser.id 
+            ? { ...u, ...formData, isActive: u.isActive, createdAt: u.createdAt }
+            : u
+        );
+        saveUsers(updatedUsers);
+        setUsers(updatedUsers);
+      } else {
+        const newUser: User = {
+          id: Date.now().toString(),
+          email: formData.email,
+          name: formData.name,
+          role: formData.role,
+          department: formData.department || null,
+          isActive: true,
+          createdAt: new Date().toISOString(),
+        };
+        const updatedUsers = [...users, newUser];
+        saveUsers(updatedUsers);
+        setUsers(updatedUsers);
       }
-
       setIsModalOpen(false);
       fetchUsers();
     } catch (err: any) {
@@ -106,34 +119,24 @@ export function UserManagement() {
     }
   };
 
-  const handleDelete = async (id: string) => {
+  const handleDelete = (id: string) => {
     if (!confirm('¿Está seguro de eliminar este usuario?')) return;
     try {
-      const token = localStorage.getItem('token');
-      const res = await fetch(`/api/users/${id}`, {
-        method: 'DELETE',
-        headers: { Authorization: `Bearer ${token}` },
-      });
-      if (!res.ok) throw new Error('Error al eliminar');
-      fetchUsers();
+      const updatedUsers = users.filter(u => u.id !== id);
+      saveUsers(updatedUsers);
+      setUsers(updatedUsers);
     } catch (err) {
       setError('Error al eliminar usuario');
     }
   };
 
-  const handleToggleActive = async (user: User) => {
+  const handleToggleActive = (user: User) => {
     try {
-      const token = localStorage.getItem('token');
-      const res = await fetch(`/api/users/${user.id}`, {
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json',
-          Authorization: `Bearer ${token}`,
-        },
-        body: JSON.stringify({ isActive: !user.isActive }),
-      });
-      if (!res.ok) throw new Error('Error al actualizar estado');
-      fetchUsers();
+      const updatedUsers = users.map(u => 
+        u.id === user.id ? { ...u, isActive: !u.isActive } : u
+      );
+      saveUsers(updatedUsers);
+      setUsers(updatedUsers);
     } catch (err) {
       setError('Error al cambiar estado');
     }

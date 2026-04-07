@@ -3,7 +3,27 @@ import { Button } from '../ui/Button';
 import { Input } from '../ui/Input';
 import { useAuth } from '../../context/AuthContext';
 
-const API_BASE = '/api';
+const USERS_KEY = 'app_users';
+
+const defaultUsers = [
+  { id: '1', email: 'admin@mipcci.com', password: 'admin123', name: 'Admin Principal', role: 'admin' as const, department: 'TI' },
+  { id: '2', email: 'gerencia@mipcci.com', password: 'gerencia123', name: 'Gerencia', role: 'gerencia' as const, department: 'Gerencia' },
+  { id: '3', email: 'rrhh@mipcci.com', password: 'rrhh123', name: 'Recursos Humanos', role: 'rrhh' as const, department: 'RRHH' },
+  { id: '4', email: 'seguridad@mippci.com', password: 'seguridad123', name: 'Seguridad', role: 'seguridad' as const, department: 'Seguridad' },
+];
+
+function getStoredUsers() {
+  try {
+    const stored = localStorage.getItem(USERS_KEY);
+    if (!stored) {
+      localStorage.setItem(USERS_KEY, JSON.stringify(defaultUsers));
+      return defaultUsers;
+    }
+    return JSON.parse(stored);
+  } catch {
+    return defaultUsers;
+  }
+}
 
 export function Login() {
   const { login } = useAuth();
@@ -18,23 +38,18 @@ export function Login() {
     setLoading(true);
 
     try {
-      const response = await fetch(`${API_BASE}/auth/login`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email: username, password }),
-      });
+      const users = getStoredUsers();
+      const user = users.find((u: any) => u.email === username && u.password === password);
 
-      const data = await response.json();
-
-      if (!response.ok) {
-        setError(data.error || 'Credenciales incorrectas');
+      if (!user) {
+        setError('Credenciales incorrectas');
         setLoading(false);
         return;
       }
 
-      login(data.user.name, data.user.role);
+      login(user.name, user.role);
     } catch (err) {
-      setError('Error de conexión. Intente más tarde.');
+      setError('Error al iniciar sesión');
     }
 
     setLoading(false);
